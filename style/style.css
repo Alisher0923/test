@@ -1,3 +1,50 @@
+/* Стили для white_btn */
+/* Класс в css бордер можно удалить, так как элемента с таким классом нет(он закоментирован) */
+.border_2{
+    border: 3px solid orange;
+    width: 195px;
+    border-radius: 15px;
+}
+.white_btn{
+    /* Если не понятно некоторые свойства, опять же на паре могу объяснить */
+    border: 3px solid orange;
+    width: 195px;
+    height: 40px;
+    border-radius: 15px;
+
+    text-decoration: none;
+
+    margin: 10px 0px;
+
+    display: block;
+}
+.right_arrow_2{
+    /* Из за цвета фона, закрашивался скругленная ораньжевая граница */
+    /* background-color: white; */
+    
+    /* Размеры для таких элементов мешались, если напомнишь на паре, то объясню почему */
+    /* width: 180px;
+    height: 25px; */
+
+    color: black;
+    text-align: left;
+
+    display: inline-block;
+}
+.blc_btn_2{
+    /* background-color: white; */
+    /* width: 180px;
+    height: 25px; */
+
+    color: black;
+    text-align: center;
+
+    padding: 10px;
+
+    display: inline-block;
+}
+
+/* Прокомментирую код, чтобы тебе было легче понимать + закрепишь знания и навыки */
 .border_1{
     border-radius: 15px;
 }
@@ -13,25 +60,6 @@
     background-color: black;
     color: white;
     width: 200px;
-    height: 25px;
-    text-align: center;
-}
-.border_2{
-    border: 3px solid orange;
-    width: 195px;
-    border-radius: 15px;
-}
-.right_arrow_2{
-    background-color: white;
-    color: black;
-    width: 180px;
-    height: 25px;
-    text-align: center;
-}
-.blc_btn_2{
-    background-color: white;
-    color: black;
-    width: 180px;
     height: 25px;
     text-align: center;
 }
