@@ -1,44 +1,88 @@
+.border_1{
+    border-radius: 15px;
+}
 .right_arrow_1{
     background-color: black;
     color: white;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    
 }
 .blc_btn_1{
     background-color: black;
     color: white;
+    width: 200px;
+    height: 25px;
+    text-align: center;
 }
 .border_2{
     border: 3px solid orange;
+    width: 195px;
+    border-radius: 15px;
 }
 .right_arrow_2{
     background-color: white;
     color: black;
+    width: 180px;
+    height: 25px;
+    text-align: center;
 }
 .blc_btn_2{
     background-color: white;
     color: black;
+    width: 180px;
+    height: 25px;
+    text-align: center;
+}
+.border_3{
+    border-radius: 15px;
 }
 .right_arrow_3{
     background-color: yellow;
     color: black;
+    width: 200px;
+    height: 25px;
+    text-align: center;
 }
 .blc_btn_3{
     background-color: yellow;
     color: black;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+}
+.border_4{
+    border-radius: 15px;
 }
 .right_arrow_4{
     background-color: orange;
     color: black;
+    width: 200px;
+    height: 25px;
+    text-align: center;
 }
 .blc_btn_4{
     background-color: orange;
     color: black;
+    width: 200px;
+    height: 25px;
+    text-align: center;
 }
-
+.border_5{
+    border-radius: 15px;
+}
 .right_arrow_5{
     background-color: darkgray;
     color: gray;
+    width: 200px;
+    height: 25px;
+    text-align: center;
 }
 .blc_btn_5{
     background-color: darkgray;
     color: gray;
+    width: 200px;
+    height: 25px;
+    text-align: center;
 }
