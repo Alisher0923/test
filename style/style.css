@@ -1,116 +1,108 @@
-/* Стили для white_btn */
-/* Класс в css бордер можно удалить, так как элемента с таким классом нет(он закоментирован) */
-.border_2{
-    border: 3px solid orange;
-    width: 195px;
-    border-radius: 15px;
-}
 .white_btn{
-    /* Если не понятно некоторые свойства, опять же на паре могу объяснить */
-    border: 3px solid orange;
+    border: 2px solid orange;
     width: 195px;
     height: 40px;
-    border-radius: 15px;
-
+    border-radius: 5px;
+    
     text-decoration: none;
 
-    margin: 10px 0px;
-
-    display: block;
-}
-.right_arrow_2{
-    /* Из за цвета фона, закрашивался скругленная ораньжевая граница */
-    /* background-color: white; */
-    
-    /* Размеры для таких элементов мешались, если напомнишь на паре, то объясню почему */
-    /* width: 180px;
-    height: 25px; */
-
-    color: black;
-    text-align: left;
+    margin: 5px 0px;
 
     display: inline-block;
 }
-.blc_btn_2{
-    /* background-color: white; */
-    /* width: 180px;
-    height: 25px; */
 
+.right_arrow_2{
     color: black;
     text-align: center;
+
+    display: inline-block;
+}
+
+.blc_btn_2{
+    color: black;
+    text-align: left;
 
     padding: 10px;
 
     display: inline-block;
 }
 
-/* Прокомментирую код, чтобы тебе было легче понимать + закрепишь знания и навыки */
-.border_1{
-    border-radius: 15px;
+.black_btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+
 }
 .right_arrow_1{
-    background-color: black;
     color: white;
-    width: 200px;
-    height: 25px;
-    text-align: center;
-    
+    text-align: left;
+
+    display: inline-block;
+    padding-right: 10px;
 }
+
 .blc_btn_1{
-    background-color: black;
     color: white;
-    width: 200px;
-    height: 25px;
     text-align: center;
+    padding: 10px;
+    display: inline-block;
 }
-.border_3{
-    border-radius: 15px;
+.yellow_btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: yellow;
+    border-radius: 5px;
 }
 .right_arrow_3{
-    background-color: yellow;
     color: black;
-    width: 200px;
-    height: 25px;
     text-align: center;
+    display: inline-block;
+    padding-right: 10px;
 }
 .blc_btn_3{
-    background-color: yellow;
     color: black;
-    width: 200px;
-    height: 25px;
+    display: inline-block;
     text-align: center;
+    padding: 10px;
 }
-.border_4{
-    border-radius: 15px;
-}
-.right_arrow_4{
+.orange_btn{
+    display: inline-block;
+    text-decoration: none;
     background-color: orange;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+.right_arrow_4{
     color: black;
-    width: 200px;
-    height: 25px;
+    display: inline-block;
+    padding-right: 10px;
     text-align: center;
 }
 .blc_btn_4{
-    background-color: orange;
     color: black;
-    width: 200px;
-    height: 25px;
+    padding: 10px;
     text-align: center;
+    display: inline-block;
 }
-.border_5{
-    border-radius: 15px;
-}
-.right_arrow_5{
+.gray_btn{
+    display: inline-block;
+    text-decoration: none;
     background-color: darkgray;
+    border-radius: 5px;
+    
+}
+
+.right_arrow_5{
+    display: inline-block;
     color: gray;
-    width: 200px;
-    height: 25px;
+    padding-right: 10px;
     text-align: center;
 }
 .blc_btn_5{
-    background-color: darkgray;
+    padding: 10px;
     color: gray;
-    width: 200px;
-    height: 25px;
+    display: inline-block;
     text-align: center;
 }

@@ -6,87 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/Breadcrumbs.css">
 </head>
 <body> 
+    <table>
+        <tr>
+            <td style="vertical-align:top">
+                <div class="block_buttons">
+                    <h2 class="title"><b>Button</b></h2>
+            
+                    <a href="1.html" class="black_btn">   
+                        <div class="blc_btn_1">Рассчитать стоимость</div>
+                        <div class="right_arrow_1"> &#8594;</div>
+                    </a> 
+                    <br>
+                    <a href="2.html" class="white_btn">
+                        <!-- 
+                            Очень хорошо, что ты понял принцып обертки(я про то, что ты 
+                            обернул blc_btn_2 и right_arrow_2 в border_2), но ты тут её
+                            использовал не "поназначению", или точнее она тут была "бесполезна".
+            
+                            Обертки нужны обыно чтобы, что то сгруппировать. Если не понял, то 
+                            ничего страшного на паре объясню, если напомнишь(ещё напомни про 
+                            объяснение работы в инструментах браузера, или сам посмотри как 
+                            работать с этими инструментами).
+                        -->
+                            <div class="blc_btn_2">Рассчитать стоимость</div>
+                            <div class="right_arrow_2"> &#8594;</div>
+                    </a>
+                    <br>
+                    <a href="3.html" class="yellow_btn">
+                        <div class="blc_btn_3">Рассчитать стоимость</div>
+                        <div class="right_arrow_3"> &#8594;</div>
+                    </a> 
+                    <br>
+                    <a href="4.html" class="orange_btn">
+                        <div class="blc_btn_4">Рассчитать стоимость</div>
+                        <div class="right_arrow_4"> &#8594;</div>
+                    </a> 
+                    <br>
+                    <a href="5.html" class="gray_btn">
+                        <div class="blc_btn_5">Рассчитать стоимость</div>
+                        <div class="right_arrow_5"> &#8594;</div>
+                    </a> 
+                </div>
+            </td>
+            <td>
+                <div class="block_brdc_rbtn_chbx_btngb">
+                    <div class="brdcr">
+                        <h2 class="brdcr_breadcrumbs"><b>Breadcrumbs</b></h2>
+                        <p class="brdcr_guru">Главная / Услуги / Раздел / <span class="usluga">Услуга</span></p>
+                    </div>
+            
+                    <div class="r_btn_chbx">
+                        <div class="r_btn">
+                            <h2 class="radio_button_circle"><b>Radio button</b></h2>
+                                <input type="radio">
+                                <input type="radio" class="org_circle_rbtn">
+                                <input type="radio" class="gray_circle_rbtn">
+                            
+                        </div>  
+                        <div class="chbx">
+                            <h2 class="checkbox_square"><b>Checkbox</b></h2>
+                                <input type="checkbox">
+                                <input type="checkbox" class="org_square_chbx"> 
+                                <input type="checkbox" class="gray_square_chbx">
+                        </div>
+                    </div>
+            
+                    <div class="btn_gb">
+                        <h2 class="button_go_back"><b>Button "Go back"</b></h2>
+                            <p class="btn_btn_gb_1"><b>Новости</b></p> <div class="left_arrow">&larr;</div>
+                            <p class="btn_btn_gb_2"><b>Новости</b></p> <div class="left_arrow">&larr;</div>
+                            <p class="btn_btn_gb_3"><b>Новости</b></p> <div class="left_arrow">&larr;</div>
+                    </div>
+                </div> 
+            </td>
+        </tr>
 
-    <div class="block_buttons">
-        <h2 class="title"><b>Button</b></h2>
 
-        <a href="1.html" class="black_btn">
-            <div class="border_1">
-                <div class="blc_btn_1">Рассчитать стоимость</div>
-                <div class="right_arrow_1"> &#8594;</div>
-            </div>
-        </a> 
-        <!--  -->
-        <a href="2.html" class="white_btn">
-            <!-- 
-                Очень хорошо, что ты понял принцып обертки(я про то, что ты 
-                обернул blc_btn_2 и right_arrow_2 в border_2), но ты тут её
-                использовал не "поназначению", или точнее она тут была "бесполезна".
-
-                Обертки нужны обыно чтобы, что то сгруппировать. Если не понял, то 
-                ничего страшного на паре объясню, если напомнишь(ещё напомни про 
-                объяснение работы в инструментах браузера, или сам посмотри как 
-                работать с этими инструментами).
-            -->
-            <!-- <div class="border_2"> -->
-                <div class="blc_btn_2">Рассчитать стоимость</div>
-                <div class="right_arrow_2"> &#8594;</div>
-            <!-- </div> -->
-        </a> 
-        <a href="3.html" class="yellow_btn">
-            <div class="border_3">
-            <div class="blc_btn_3">Рассчитать стоимость</div>
-            <div class="right_arrow_3"> &#8594;</div>
-            </div>
-        </a> 
-        <a href="4.html" class="orange_btn">
-            <div class="border_4">
-                <div class="blc_btn_4">Рассчитать стоимость</div>
-                <div class="right_arrow_4"> &#8594;</div>
-            </div>
-        </a> 
-        <a href="5.html" class="gray_btn">
-            <div class="border_5">
-                <div class="blc_btn_5">Рассчитать стоимость</div>
-                <div class="right_arrow_5"> &#8594;</div>
-            </div>
-        </a> 
-    </div>
-
-    <div class="block_brdc_rbtn_chbx_btngb">
-        <div class="brdcr">
-            <h2 class="brdcr_breadcrumbs"><b>Breadcrumbs</b></h2>
-            <p class="brdcr_guru">Главная / Услуги / Раздел / <span>Услуга</span></p>
-
-        </div>
-
-        <div class="r_btn_chbx">
-            <div class="r_btn">
-                <h2 class="radio_button_circle"><b>Radio button</b></h2>
-                    <input type="radio">
-                    <input type="radio" class="org_circle_rbtn">
-                    <input type="radio" class="gray_circle_rbtn">
-                
-            </div>  
-
-            <div class="chbx">
-                <h2 class="checkbox_square"><b>Checkbox</b></h2>
-                    <input type="checkbox">
-                    <input type="checkbox" class="org_square_chbx"> 
-                    <input type="checkbox" class="gray_square_chbx">
-            </div>
-        </div>
-
-        <div class="btn_gb">
-            <h2 class="button_go_back"><b>Button "Go back"</b></h2>
-                <p class="btn_btn_gb_1"><b>Новости</b></p> <div class="left_arrow">&larr;</div>
-                <p class="btn_btn_gb_2"><b>Новости</b></p> <div class="left_arrow">&larr;</div>
-                <p class="btn_btn_gb_3"><b>Новости</b></p> <div class="left_arrow">&larr;</div>
-        </div>
-
-    </div>
-
+    </table>
 </body>
 </html>

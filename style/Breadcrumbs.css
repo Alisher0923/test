@@ -1,0 +1,32 @@
+.block_brdc_rbtn_chbx_btngb{
+    text-align: left;
+    margin: 0px 100px;
+}
+.brdcr_guru{
+    color:  darkgray;
+}
+.usluga{
+    color: gray;
+}
+.radio_button_circle{
+    font-size: 120%;
+    text-align: left;
+    display: inline-block;
+}
+.chbx{
+    font-size: 120%;
+    text-align: right;
+    display: inline-block;
+}
+.checkbox_square{
+    font-size: 100%;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
