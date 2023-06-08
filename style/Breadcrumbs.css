@@ -11,7 +11,12 @@
 .radio_button_circle{
     font-size: 120%;
     text-align: left;
-    display: inline-block;
+    display: block;
+}
+.r_btn{
+display: inline-block;
+margin-right: 40px;
+
 }
 .chbx{
     font-size: 120%;
@@ -21,6 +26,79 @@
 .checkbox_square{
     font-size: 100%;
     text-align: right;
+}
+
+/*.org_circle_rbtn[type=radio]:checked{
+    background: #FF00FF;
+    color: #FF0000;
+    border: 2px solid #0000FF;
+}*/
+.white_circle_rbtn{
+    display: none; 
+}
+.label_white_circle_rbtn{
+    display: inline-block;
+    width: 10px;
+    height: 10px;  
+    border-radius: 50%; 
+    border: 2px solid gray;
+}
+.org_circle_rbtn{
+    display: none;
+}
+.label_org_circle_rbtn{
+    position: relative;
+
+    text-align: center;
+    display: inline-block;
+    width: 10px;
+    height: 10px;  
+    border-radius: 50%; 
+    border: 2px solid black;
+}
+.label_org_circle_rbtn::before{
+    content: "";
+
+    position: absolute;
+    top: 70%;
+    left: 70%;
+
+    margin: -5px 0px 0px -5px;
+
+    text-align: center;
+    display: inline-block;
+    width: 6px;
+    height: 6px;  
+    border-radius: 50%; 
+    background-color: orange;
+}
+.gray_circle_rbtn{
+    display: none;
+}
+.label_gray_circle_rbtn{
+    position: relative;
+    text-align: right;
+    display: inline-block;
+    width: 10px;
+    height: 10px;  
+    border-radius: 50%; 
+    border: 2px solid gray;
+}
+.label_gray_circle_rbtn::before{
+    content: "";
+
+    position: absolute;
+    top: 70%;
+    left: 70%;
+
+    margin: -5px 0px 0px -5px;
+
+    text-align: center;
+    display: inline-block;
+    width: 6px;
+    height: 6px;  
+    border-radius: 50%; 
+    background-color: gray;
 }
 
 
